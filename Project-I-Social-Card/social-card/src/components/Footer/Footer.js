@@ -15,8 +15,8 @@ export default class Footer extends React.Component {
 
     handleClick(e) {
         e.persist();
-        const { name, value } = e.target;
-        console.log(e);
+        const { name } = e.target;
+        console.log(e.target)
     }
     render() {
         return (

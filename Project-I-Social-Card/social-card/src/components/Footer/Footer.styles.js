@@ -11,6 +11,7 @@ export const StyledDiv = styled.div`
 export const StyledRefresh = styled.div`
     display: flex;
     cursor: pointer;
+    padding: 2rem;
 `
 
 export const StyledHeart = styled.div`
