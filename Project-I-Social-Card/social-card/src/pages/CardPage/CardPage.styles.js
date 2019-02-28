@@ -7,4 +7,8 @@ export const StyledContainer = styled(Container)`
 
 export const StyledDiv = styled.div`
     padding: 0 1.5rem;
+    a {
+        text-decoration: none;
+        color: black;
+    }
 `;

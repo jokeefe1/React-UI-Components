@@ -11,9 +11,11 @@ export default function CardPage() {
         <StyledContainer>
             <Logo />
             <StyledDiv>
-                <SectionTop />
-                <SectionMiddle />
-                <SectionBottom />
+                <a href="https://www.reactjs.org">
+                    <SectionTop />
+                    <SectionMiddle />
+                    <SectionBottom />
+                </a>
                 <Footer />
             </StyledDiv>
         </StyledContainer>
